@@ -46,3 +46,22 @@ if is_leap_year(year):
     print(f"{year} is a leap year.")
 else:
     print(f"{year} is not a leap year.")
+
+# 4 Factorial using python function
+
+def factorial(n):
+    if n <0:
+        raise ValueError("Factorial is not defined for negative numbers")
+    if n ==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+
+# Example 1
+print(factorial(5))  # Output: 120
+
+# Example 2
+print(factorial(0))  # Output: 1
+
+# Example 3
+print(factorial(10))  # Output: 3628800
