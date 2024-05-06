@@ -32,3 +32,17 @@ def even_or_odd(number):
 num = 7
 result = even_or_odd(num)
 print(f"The number {num} is {result}")
+
+#  3 Leap year check
+def is_leap_year(year):
+    
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+
+year = 2024
+if is_leap_year(year):
+    print(f"{year} is a leap year.")
+else:
+    print(f"{year} is not a leap year.")
