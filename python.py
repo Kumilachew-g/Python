@@ -5,12 +5,10 @@
     # Code block to be executed repeatedly
     # as long as the condition is true
 #  Example:  
-# count = 1
-# while count <= 5:
-#    print(count)
-#    count += 1
-
-
+count = 1
+while count <= 5:
+   print(count)
+   count += 1
 
 
 
