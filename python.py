@@ -10,7 +10,9 @@ while count <= 5:
    print(count)
    count += 1
 
-
+while True:
+    print("This is infinite loop")
+    break
 
 x = 0
 
