@@ -1,3 +1,31 @@
+# What is a while loop?
+
+# A while loop in Python is used to repeatedly execute a block of code as long as a specified condition is true. The syntax for a while loop is as follows:
+# while condition:
+    # Code block to be executed repeatedly
+    # as long as the condition is true
+#  Example:  
+# count = 1
+# while count <= 5:
+#    print(count)
+#    count += 1
+
+
+
+
+
+x = 0
+
+while x < 5:
+    print ("Not there yet, x = " + str(x))
+    x = x + 1
+print("x=" + str(x))
+
+
+
+
+
+
 print("Triangle area with python")
 
 def area_triangle(length, width):
